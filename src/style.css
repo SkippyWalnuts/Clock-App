@@ -9,13 +9,17 @@ body {
 }
 
 .container {
+    border-radius: 30px; 
+    padding: 30px;
+}
+
+.container, footer {
     background: rgb(117, 143, 194, 0.1);
-    border-radius: 50px;
+    
     box-shadow: 2px 1px 1px #d2d1da;
     color: #d2d1da;
     margin: 100px auto;
     max-width: 450px;
-    padding: 30px;
     
     
 }
@@ -60,9 +64,7 @@ h2 {
 }
 
 footer {
-    background: rgb(117, 143, 194, 0.1);
-    color: #d2d1da;
-    margin: 50px 150px;
+    border-radius: 18px;
     padding: 10px;
     text-align: center;
 
