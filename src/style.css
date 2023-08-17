@@ -1,28 +1,38 @@
 
 body {
-    background-image: url("/src/images/earth-from-space.jpg");
+    background-image: url("/src/images/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:  #060002;
+    background-color:  #061123;
+  
+    
 }
 
 .container {
-    background: linear-gradient(
-        rgb(117, 143, 194, 0.5),
-        rgb(6, 0, 2, 0.4)
-    );
-    border-radius: 40px;
+    background: rgb(117, 143, 194, 0.1);
+    border-radius: 50px;
+    box-shadow: 2px 1px 1px #d2d1da;
     color: #d2d1da;
-    max-width: 550px;
-    margin: 0 auto;
-    padding: 5px;
+    margin: 100px auto;
+    max-width: 450px;
+    padding: 5px 20px 30px 20px;
     text-align: center;
     
 }
 
+select {
+
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+}
+
 footer {
-    background: rgb(117, 143, 194, 0.5);
-    margin: 50px auto;
+    background: rgb(117, 143, 194, 0.1);
+    color: #d2d1da;
+    margin: 50px 150px;
+    padding: 10px;
     text-align: center;
 
 }
