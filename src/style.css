@@ -15,9 +15,17 @@ body {
     color: #d2d1da;
     margin: 100px auto;
     max-width: 450px;
-    padding: 5px 20px 30px 20px;
+    padding: 30px;
     text-align: center;
     
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    margin: 10px;
 }
 
 select {
