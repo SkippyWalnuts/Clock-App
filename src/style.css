@@ -1,5 +1,28 @@
+
 body {
-    background: aquamarine;
-    color: blue;
+    background-image: url("/src/images/earth-from-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #060002;
+}
+
+.container {
+    background: linear-gradient(
+        rgb(117, 143, 194, 0.5),
+        rgb(6, 0, 2, 0.4)
+    );
+    border-radius: 40px;
+    color: #d2d1da;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 5px;
     text-align: center;
+    
+}
+
+footer {
+    background: rgb(117, 143, 194, 0.5);
+    margin: 50px auto;
+    text-align: center;
+
 }
