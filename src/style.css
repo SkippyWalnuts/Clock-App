@@ -24,8 +24,9 @@ body {
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 55px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
