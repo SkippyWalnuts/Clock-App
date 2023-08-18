@@ -40,7 +40,11 @@ select {
 
 h2 {
     font-size: 35px;
-    margin: 0;
+    margin: 10px 0 auto;
+}
+
+.time {
+    margin: 15px 0 auto;
 }
 
 .city {
