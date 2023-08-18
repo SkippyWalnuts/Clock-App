@@ -15,8 +15,8 @@ body {
 
 .container, footer {
     background: rgb(117, 143, 194, 0.1);
-    box-shadow: 2px 1px 1px #d2d1da;
-    color: #d2d1da;
+    box-shadow: 2px 1px 1px #f0ffff;
+    color: #f0ffff;
     margin: 100px auto;
     max-width: 450px;
     
