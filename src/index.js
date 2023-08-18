@@ -2,14 +2,14 @@ function updateTime() {
 
 //Los-Angeles
 
-let losAngelesElement = document.querySelector("#los-angeles");
-if (losAngelesElement) {
-let losAngelesDateElement = losAngelesElement.querySelector(".date");
-let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-let losAngelesTime = moment().tz(`America/Los_Angeles`);
+let reykjavikElement = document.querySelector("#reykjavik");
+if (reykjavikElement) {
+let reykjavikDateElement = reykjavikElement.querySelector(".date");
+let reykjavikTimeElement = reykjavikElement.querySelector(".time");
+let reykjavikTime = moment().tz(`Atlantic/Reykjavik`);
 
-losAngelesDateElement.innerHTML = losAngelesTime.format(`dddd Do [of] MMMM YYYY`);
-losAngelesTimeElement.innerHTML = losAngelesTime.format(`h:mm:ss [<small>]A[<small>]`);
+reykjavikDateElement.innerHTML = reykjavikTime.format(`dddd Do [of] MMMM YYYY`);
+reykjavikTimeElement.innerHTML = reykjavikTime.format(`h:mm:ss [<small>]A[<small>]`);
 }
 
 //Shanghai
