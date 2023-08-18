@@ -15,7 +15,6 @@ body {
 
 .container, footer {
     background: rgb(117, 143, 194, 0.1);
-    
     box-shadow: 2px 1px 1px #d2d1da;
     color: #d2d1da;
     margin: 100px auto;
@@ -41,7 +40,6 @@ select {
 h2 {
     font-size: 35px;
     margin: 0;
-    text-align: center;
 }
 
 .city {
